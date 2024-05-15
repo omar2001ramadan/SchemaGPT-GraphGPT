@@ -1,0 +1,46 @@
+[
+    {
+        "type": "intrusion-set",
+        "id": "intrusion-set--1",
+        "name": "Liberty Party of Volandia (LPV) Breach Operation",
+        "description": "This is a complex, advanced persistent threat (APT) breach operation likely supported by the nation Maristan.",
+        "aliases": [
+            "LPV Breach Operation"
+        ],
+        "goals": [
+            "Disrupt LPV's Web Servers",
+            "Disseminate Misleading Content"
+        ],
+        "resource_level": "organization",
+        "primary_motivation": "political"
+    },
+    {
+        "type": "identity",
+        "id": "identity--2",
+        "name": "Liberty Party of Volandia (LPV)",
+        "description": "The Liberty Party of Volandia (LPV) is a prominent political party in Volandia.",
+        "identity_class": "organization",
+        "contact_information": "lpv@lpv.com"
+    },
+    {
+        "type": "identity",
+        "id": "identity--3",
+        "name": "Maristan",
+        "description": "Maristan is a nation that is likely supporting the Liberty Party of Volandia (LPV) breach operation.",
+        "identity_class": "nation"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "identity--2"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "identity--3"
+    }
+]

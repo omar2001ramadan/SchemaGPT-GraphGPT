@@ -1,0 +1,67 @@
+[
+    {
+        "type": "intrusion-set",
+        "id": "intrusion-set--1",
+        "name": "Maristan-funded APT Intrusion Set",
+        "description": "This intrusion set is suspected to be funded by the country Maristan.",
+        "aliases": [],
+        "goals": [
+            "Insert False Information",
+            "DDoS LPV Web Servers"
+        ],
+        "resource_level": "organization",
+        "primary_motivation": "political"
+    },
+    {
+        "type": "campaign",
+        "id": "campaign--2",
+        "name": "LPV Website Campaign",
+        "description": "This campaign seeks to insert false information into the LPV's web pages.",
+        "aliases": [],
+        "objective": "Insert False Information",
+        "resource_level": "organization",
+        "primary_motivation": "political"
+    },
+    {
+        "type": "attack-pattern",
+        "id": "attack-pattern--3",
+        "name": "LPV Website DDoS Attack Pattern",
+        "description": "This attack pattern is used to launch a DDoS effort against the LPV web servers.",
+        "aliases": [],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "lockheed-martin-cyber-kill-chain",
+                "phase_name": "denial-of-service"
+            }
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "campaign--2"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "attack-pattern--3"
+    },
+    {
+        "type": "identity",
+        "id": "identity--6",
+        "name": "Liberty Party of Volandia",
+        "description": "The Liberty Party of Volandia (LPV) is one of the political parties of the country Volandia.",
+        "identity_class": "organization",
+        "contact_information": ""
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--7",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "identity--6"
+    }
+]

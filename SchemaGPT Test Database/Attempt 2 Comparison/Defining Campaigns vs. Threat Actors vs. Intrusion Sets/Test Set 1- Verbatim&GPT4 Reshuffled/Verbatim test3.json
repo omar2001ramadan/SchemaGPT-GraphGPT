@@ -1,0 +1,86 @@
+[
+    {
+        "type": "intrusion-set",
+        "id": "intrusion-set--1",
+        "name": "APT Intrusion Set",
+        "description": "This intrusion set is suspected to be funded by the country Franistan.",
+        "aliases": [
+            "APT Intrusion Set"
+        ],
+        "goals": [
+            "Insert False Information",
+            "DDoS"
+        ],
+        "resource_level": "organization",
+        "primary_motivation": "political"
+    },
+    {
+        "type": "campaign",
+        "id": "campaign--2",
+        "name": "APT Campaign",
+        "description": "This campaign seeks to insert false information into the BPP's web pages.",
+        "aliases": [
+            "APT Campaign"
+        ],
+        "objective": "Insert False Information",
+        "resource_level": "organization",
+        "primary_motivation": "political"
+    },
+    {
+        "type": "attack-pattern",
+        "id": "attack-pattern--3",
+        "name": "APT Attack Pattern",
+        "description": "This attack pattern is a DDoS effort against the BPP web servers.",
+        "aliases": [
+            "APT Attack Pattern"
+        ],
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "impact"
+            }
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "campaign--2"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "attack-pattern--3"
+    },
+    {
+        "type": "identity",
+        "id": "identity--6",
+        "name": "Franistan",
+        "description": "Franistan is a country that is suspected to fund the APT intrusion set.",
+        "identity_class": "country"
+    },
+    {
+        "type": "identity",
+        "id": "identity--7",
+        "name": "Branistan People's Party",
+        "description": "The Branistan People's Party is a political party in the country Branistan.",
+        "identity_class": "organization"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--8",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "identity--6"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--9",
+        "relationship_type": "targets",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "identity--7"
+    }
+]

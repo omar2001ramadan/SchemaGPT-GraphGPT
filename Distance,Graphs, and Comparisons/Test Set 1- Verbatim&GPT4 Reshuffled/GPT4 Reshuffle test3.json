@@ -1,0 +1,55 @@
+[
+    {
+        "type": "intrusion-set",
+        "id": "intrusion-set--1",
+        "name": "Franistan-backed APT",
+        "description": "This intrusion set is classified as an advanced persistent threat (APT) and is reportedly backed by Franistan.",
+        "aliases": [
+            "Branistan People's Party (BPP)"
+        ],
+        "goals": [
+            "Infuse False Data",
+            "DDoS Attack"
+        ],
+        "resource_level": "organization",
+        "primary_motivation": "political"
+    },
+    {
+        "type": "attack-pattern",
+        "id": "attack-pattern--2",
+        "name": "Infuse False Data",
+        "description": "This attack pattern involves efforts to infuse false data into BPP's web pages.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "impact"
+            }
+        ]
+    },
+    {
+        "type": "attack-pattern",
+        "id": "attack-pattern--3",
+        "name": "DDoS Attack",
+        "description": "This attack pattern involves a DDoS attack targeting the party's web servers.",
+        "kill_chain_phases": [
+            {
+                "kill_chain_name": "mitre-attack",
+                "phase_name": "impact"
+            }
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "attack-pattern--2"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "attack-pattern--3"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "type": "intrusion-set",
+        "id": "intrusion-set--1",
+        "name": "APT Intrusion Set",
+        "description": "Suspected to be funded by Franistan."
+    },
+    {
+        "type": "campaign",
+        "id": "campaign--2",
+        "name": "APT Campaign",
+        "description": "Seeks to insert false information."
+    },
+    {
+        "type": "identity",
+        "id": "identity--3",
+        "name": "Franistan",
+        "description": "Country suspected to fund the APT intrusion set."
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "campaign--2"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "identity--3"
+    }
+]

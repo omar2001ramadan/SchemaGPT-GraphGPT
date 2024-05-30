@@ -1,0 +1,66 @@
+[
+    {
+        "type": "intrusion-set",
+        "id": "intrusion-set--1",
+        "name": "APT Intrusion Set",
+        "description": "Suspected to be funded by Franistan."
+    },
+    {
+        "type": "software",
+        "id": "software--1",
+        "name": "Word Processor",
+        "description": "A software application used for creating and editing text documents."
+    },
+    {
+        "type": "device",
+        "id": "device--2",
+        "name": "Smartphone",
+        "description": "A handheld device that combines mobile phone and computing functions."
+    },
+    {
+        "type": "organization",
+        "id": "organization--3",
+        "name": "Tech Corp",
+        "description": "A company specializing in technology and software development."
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4",
+        "relationship_type": "developed-by",
+        "source_ref": "software--1",
+        "target_ref": "organization--3"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5",
+        "relationship_type": "used-by",
+        "source_ref": "device--2",
+        "target_ref": "software--1"
+    },
+    {
+        "type": "campaign",
+        "id": "campaign--2",
+        "name": "APT Campaign",
+        "description": "Seeks to insert false information."
+    },
+    {
+        "type": "identity",
+        "id": "identity--3",
+        "name": "Franistan",
+        "description": "Country suspected to fund the APT intrusion set."
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--4",
+        "relationship_type": "uses",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "campaign--2"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5",
+        "relationship_type": "attributed-to",
+        "source_ref": "intrusion-set--1",
+        "target_ref": "identity--3"
+    }
+]

@@ -1,0 +1,191 @@
+1 IN THE UNITED STATES DISTRICT COURT FOR THE WESTERN DISTRICT OF VIRGINIA Harrisonburg Division RLI INSURANCE COMPANY ) ) Plaintiff, ) ) v. ) Case No. 5: 18________________ ) NEXUS SERVICES, INC. ) ) ) Defendant. ) ______________________________________ ) VERIFIED COMPLAINT COMES NOW, Plaintiff RLI Insurance Company (“Plaintiff” or “RLI”), by its undersigned counsel, and for its Complaint against Defendant Nexus Services, Inc. (“Defendant” or “Nexus”) alleges and avers as follows: NATURE OF ACTION 
+
+1. This is an action for enforcement by specific performance and injunction of an indemnity agreement that Nexus executed in RLI’s favor, as consideration for RLI’s issuance of more than 2, 400 immigration bonds on Nexus’ behalf, and for such further relief, including damages, as may be available and appropriate for Nexus’ clear successive and continuing breaches of its related obligations to RLI, including but not limited to those obligations arising under the terms of an indemnity agreement that Nexus executed in RLI’s favor. PARTIES 
+
+2. RLI is an Illinois corporation with its principal place of business located in Peoria, Illinois. 
+
+3. Upon information and belief, Nexus is a Virginia corporation with its principal place of business located in Verona, Virginia. JURISDICTION AND VENUE 
+
+4. This Court has jurisdiction over this matter pursuant to 28 U. S. C. § 1332(a)(1) in that, for diversity of citizenship purposes, Plaintiff is a citizen of Illinois and Defendant is a citizen of Virginia, and the matter in controversy exceeds $75, 000, exclusive of interest and costs. 
+
+5. Venue is proper in this District and Division under 28 U. S. C. § 1391 in that, inter alia, the sole defendant in this action, Nexus, is deemed to reside in Verona, Virginia, which is within this District and Division. FACTUAL BACKGROUND A. The General Agreement of Indemnity Executed by the Defendant 
+
+6. On or about January 20, 2016, Nexus, by its President, Micheal Donovan, as “Indemnitor, ” executed and entered a Commercial Surety General Indemnity Agreement (the “Indemnity Agreement”), in favor of RLI, as “Surety, ” (i) to induce RLI to issue surety immigration bonds (each a “Bond” under the Indemnity Agreement) for the release of alien detainees as requested by Nexus, including through any of Nexus’ subsidiaries, brokers or other agents (each such alien detainee is a “Principal” under one or more Bonds); and (ii) as consideration for RLI’s issuance of such Bonds. A true and correct copy of the Indemnity Agreement is attached hereto as Exhibit A and is incorporated herein by reference as though set forth in full. 
+
+7. Under the section entitled, “Indemnity, ” the Indemnity Agreement provides, in part: 2  a. Indemnitor(s) agree to pay to Surety upon demand: (i) all losses, costs, damages, attorney’s fees and expenses of whatsoever kind or nature which arise by reason of, or in consequence of, the Surety having executed any Bond on behalf of the Principal, or in enforcing this agreement against any of the Indemnitor(s) or in procuring or attempting to procure its release from liability or a settlement under any Bond. (ii) an amount sufficient to discharge any claim made against Surety on any Bond. This sum may be used by Surety to pay such claim or be held by Surety as collateral security against loss on any Bond. (iii) … Exhibit A, Indemnity Section. 
+
+8. Under the section entitled, “Indemnity, ” the Indemnity Agreement further provides, in part: b. Regarding claims against Surety: (i) Surety shall have the exclusive right for itself and the Indemnitor(s) to determine whether any claim or suit upon any Bond shall on the basis of liability, expediency or otherwise, be paid, compromised, defended or appealed. (ii) Surety shall have the right to incur such expenses in handling a claim as it shall deem necessary including but not limited to the expenses for investigative accounting, technical and legal services. (iii) Surety shall have the foregoing rights irrespective of the fact that the Indemnitor(s) may have assumed or offered to assume the defense of the Surety upon such claim. … Exhibit A, Indemnity Section. 
+
+9. Under the section entitled, “General Provisions, ” the Indemnity Agreement provides, in part: c. Until Surety has been furnished with conclusive evidence of its discharge without loss from any Bonds, and until Surety has been otherwise fully indemnified as hereunder provided, Surety shall have the right of access to the books, records and accounts of the Indemnitor(s) for the purpose of examining and copying them. … Exhibit A, General Provisions Section. 3 
+
+10. Under the section entitled, “General Provisions, ” the Indemnity Agreement further provides, in part: d. Surety shall have every right, defense and remedy allowed by law including the rights of exoneration and subrogation. Indemnitor(s) will, upon the request of the Surety, procure the discharge of Surety from any Bond and all liability by reason thereof. If such discharge is unattainable, Indemnitor(s) will, if requested by Surety, either deposit collateral with Surety, acceptable to Surety, sufficient to cover all exposure under such Bond or Bonds, or make provisions acceptable to Surety for the funding of the bonded obligation(s). … Exhibit A, General Provisions Section. 
+
+11. Under the section entitled, “General Provisions, ” the Indemnity Agreement further provides, in part: e. Indemnitor(s) consent and agree that any and all collateral deposited with Surety shall be available at the Surety’s sole discretion as collateral security on any or all Bonds heretofore or hereafter executed for or at the request of the Indemnitor(s). … Exhibit A, General Provisions Section. 
+
+12. Under the section entitled, “General Provisions, ” the Indemnity Agreement further provides, in part: f. Liability of the Indemnitor(s) hereunder shall not be affected by: (i) the failure of the Principal to sign any Bond; (ii) any claim that other indemnity or security was to have been obtained; (iii) the release of any indemnity; and (iv) the return or exchange of any collateral that may have been obtained. Exhibit A, General Provisions Section. 
+
+13. Under the section entitled, “General Provisions, ” the Indemnity Agreement further provides that the laws of the State of Illinois shall govern the Indemnity Agreement. Exhibit A, General Provisions Section. 4  B. RLI Issued Immigration Bonds in Reliance upon the Indemnity Agreement 
+
+14. At the request of Nexus, and in reliance upon the various terms and protections afforded to RLI under the Indemnity Agreement, RLI, as Surety, issued more than 2, 400 immigration Bonds, in conjunction with the release from custody of individual alien detainees, each of whom is a named “Principal” under one or more of the Bonds. 
+
+15. Each Bond was produced on behalf of RLI by Big Marco Insurance & Bonding Services, LLC (“Big Marco”). 
+
+16. RLI and Big Marco are co-obligors on each of the Bonds. 
+
+17. The obligee on each of the immigration Bonds is the United States Government. 
+
+18. The terms of such immigration Bonds are informed by the Code of Federal Regulations (“CFR”), specifically 8 CFR § 103. 6, and regulations established by the Secretary of the Department of Homeland Security (“DHS”). 
+
+19. DHS administers immigration Bonds in accordance with policies and procedures set forth in its own Bond Management Handbook (“DHS Handbook”). 
+
+20. Consistent with the CFR, the United States Government, through DHS, is the “Obligee” of each immigration Bond that RLI issued at Nexus’ request, and as such, may assert claims against the Bonds and enforce the performance obligations of each Bond. 
+
+21. The CFR provides for a number of different types of immigration Bonds, each imposing unique obligations upon the Surety, and all of which are issued on DHS’ Form I-352. 
+
+22. A true and correct copy of DHS Form I-352 is attached hereto as Exhibit B. 1 1 As a representative sample, a true and correct copy of the completed first page of one of the immigration Bonds issued by RLI at Nexus’ request, redacted in part by DHS, and in part by RLI for privacy reasons, is attached hereto as part of Exhibit J. 
+
+23. At Nexus’ request, RLI issued the following three types of the immigration Bonds provided under Form I-352: (i) Bond Conditioned Upon Delivery of an Alien (“Delivery Bond”); (ii) Bond Conditioned Upon the Voluntary Departure of an Alien (“Departure Bond”); and (iii) Order of Supervision Bond (“OSUP Bond”). 
+
+24. A Delivery Bond generally requires the surety to cause the bonded alien to appear in court or as otherwise directed by DHS, upon an appropriate appearance notice. 
+
+25. A Departure Bond generally requires the surety to provide proof that the bonded alien has departed the United States by a required date. 
+
+26. An OSUP Bond generally requires the surety to ensure that the alien complies with a supervision order, which may include a voluntary surrender of the bonded alien. 
+
+27. The Bond obligations continue until they are cancelled or released, which may occur upon, satisfaction of the performance obligation, forfeiture of the penal sum of the Bond, or the occurrence of a number of other events, many of which are enumerated on Form I-352 or in the DHS Handbook. 
+
+28. The DHS Handbook states that the average life of an immigration bond is twenty- five months. 
+
+29. Each immigration Bond is issued in a specific penal amount or sum, which is forfeited to the Government, in whole or in part, upon a “breach” of the Bond—i. e. , a failure to perform the bonded obligation. 
+
+30. In accordance with Bond Form I-352 and the DHS Handbook, a failure to timely pay the penal sum of the Bond within thirty (30) days in response to a breach notice by DHS, or to timely appeal the same, generally exposes the co-obligors to additional interest and penalties beyond the Bond’s penal sum. 
+
+31. In accordance with Bond Form I-352 and the DHS Handbook, upon the failure to timely pay such a Bond obligation within one hundred twenty (120) days, the surety is exposed to the additional risk of having the matter reported and turned over to the United States Department of Treasury, with whom commercial sureties must register and obtain approval in order to issue federal surety bonds. 
+
+32. As a practical matter, a commercial surety’s maintenance of its good standing with the Department of Treasury is vital to its ability to maintain a surety business. 
+
+33. In accordance with its obligations under the Indemnity Agreement to indemnify and exonerate RLI from liability and loss, Nexus has undertaken (i) in the first instance, to meet the performance obligations of the various Bonds upon receipt of a corresponding demand from DHS; and (ii) in the event of a failure to satisfy the performance obligations, to pay Bond claims as they become due in accordance with corresponding breach notices from DHS. C. Nexus Has Defaulted under the Indemnity Agreement 
+
+34. Between February 11, 2016 and February 28, 2017, RLI issued more than 2, 400 Bonds at Nexus’ request, of which, as best as RLI can determine from the limited cancellation information available to RLI to date, at least 2, 197 remain in force. The percentage of Bonds that remains outstanding is far greater than would reasonably be expected under the twenty-fivemonth average life projected in the DHS Handbook. 
+
+35. Based on the combined penal sum of the outstanding Bonds, plus any interest and penalties resulting from Nexus’ delay in paying bond claims and RLI’s anticipated consulting, accounting, technical and legal fees relating to its issuance of the Bonds, including but not limited to the investigation, handling or discharge of Bond claims, or to the enforcement of its rights under the Indemnity Agreement, RLI is exposed to Bond liability and loss in excess of one million dollars. 
+
+36. DHS began calling for performance under some of the Bonds as early as May 25, 2016. 
+
+37. As early as August 25, 2016, RLI began receiving notices that certain Bond obligations had not been performed as demanded by DHS. Each such notice included a claim against the Bond, in the form of an invoice, demanding remission of the penal sum of the Bond. 
+
+38. In response to its receipt of Bond claims, RLI made inquiries to Nexus regarding, among other things, the status of all claims on individual Bonds and the status of all other Bonds, including the extent to which Bonds had been cancelled. 
+
+39. Nexus has consistently refused to comply with RLI’s specific requests for information in connection with the Bonds. 
+
+40. In March 2017, RLI began issuing specific, formal written demands for access to inspect Nexus’ books, records and accounts. 
+
+41. By letter dated March 3, 2017, for instance, RLI issued a demand for access to such information by March 10, 2017, enumerating sixteen (16) categories of specific records that RLI sought to review, and followed up on a prior request for a date for RLI to meet at Nexus’ office. A true and correct copy of this correspondence is attached hereto as Exhibit C. 
+
+42. Nexus did not comply with RLI’s March 3, 2017 demand. 
+
+43. By email dated March 6, 2017, RLI reiterated its request for a prompt meeting date and expressed other concerns regarding outstanding Bond claims and its related lack of information. A true and correct copy of this correspondence (without its attachment, which is attached as Exhibit C hereto) is attached hereto as Exhibit D. 
+
+44. Nexus did not comply with these requests for a prompt meeting date. 
+
+45. By letter dated March 13, 2017, RLI, inter alia, noted Nexus’ failure to comply with its obligations under the Indemnity Agreement and renewed its demand for access to the previously requested books, records and accounts, demanding Nexus’ compliance by March 17, 
+
+2017. A true and correct copy of this correspondence is attached hereto as Exhibit E. 
+
+46. Nexus failed and refused to comply with this request. 
+
+47. Nexus finally agreed to allow RLI to meet with Nexus at its office in Verona, Virginia on May 26, 2017, and both parties attended such a meeting that day with their respective counsel. Nexus did not at that meeting provide RLI with access to the requested records, but it did agree to produce copies of them following the meeting. 
+
+48. By June 1, 2017 letter of its counsel, RLI followed up on its request for access to the Nexus’ books, records and accounts, including a number of specific categories discussed at the meeting, which are enumerated in the letter, and demanded Nexus’ compliance by June 9, 
+
+2017. A true and correct copy of this correspondence is attached hereto as Exhibit F. 
+
+49. Nexus failed and refused to comply with this request, and to date, has never provided RLI with anything close to what RLI requested and Nexus agreed to provide at the May 26, 2017 meeting. 
+
+50. By letter dated June 19, 2017, RLI noted Nexus’ noncompliance with its prior demands and again reiterated its request for access to Nexus’ books, records and accounts, requesting a date certain by which it could expect Nexus’ compliance. A true and correct copy of this correspondence is attached hereto as Exhibit G. 
+
+51. Nexus failed and refused to comply with this request.  
+
+52. On December 12, 2017, Nexus complied with RLI’s request for a meeting at the office of RLI’s counsel in McLean, Virginia, to address, among other things, Nexus’ failure to provide RLI with access to its books, records and accounts. 
+
+53. During the December 12, 2017 meeting, Nexus again agreed to provide the requested records but only upon execution of a confidentiality agreement. 
+
+54. At that time, RLI’s counsel correctly advised Nexus that its express contractual right of access to books, records and accounts was not in any way contingent upon the execution of a confidentiality agreement but, without waving any rights, nonetheless asked Nexus’ counsel to delineate all material terms that it would require in such a confidentiality agreement. 
+
+55. Thereafter, RLI’s counsel prepared, and by email dated January 10, 2018 forwarded to Nexus, a draft confidentiality agreement that addressed each of Nexus’ stated concerns. 
+
+56. To date, Nexus has both declined to execute the draft confidentiality agreement and refused to comply with related inquiries from RLI’s counsel that Nexus identify any provisions that are unacceptable to Nexus and articulate any specific reasons that Nexus would not execute it. 
+
+57. By letter dated March 19, 2018, RLI made further demand upon Nexus under the Indemnity Agreement for access to inspect Nexus’ books, records and accounts, including all records requested in each of its prior written demand letters. A true and correct copy of this correspondence (without its exhibits, all of which are attached as other exhibits hereto) is attached as Exhibit H, hereto. 
+
+58. To date, Nexus has failed and refused to comply with this latest request, as well as each of the other above-referenced requests by RLI for access to Nexus’ books, records and accounts. A true and correct copy of an email from Nexus’ counsel advising RLI that it would not be granted such access – sent the day before the date upon which RLI had notified Nexus that RLI would arrive at Nexus’ offices to inspect the requested books, records and accounts – is attached hereto as Exhibit I. 
+
+59. In addition to its numerous requests for access to books, records and accounts, RLI has made demand under the Indemnity Agreement for Nexus’ procurement of RLI’s discharge under the Bonds or, in the alternative, for collateral security. 
+
+60. Specifically, by its above-referenced letter dated March 13, 2017, RLI made a further formal, specific demand under the Indemnity Agreement that Nexus either (i) procure RLI’s discharge without loss from all Bonds and provide conclusive evidence of such discharge; or (ii) if such discharge was unattainable, deposit collateral security with RLI to cover a portion of RLI’s estimated exposure under the Bonds. See Ex. E. 
+
+61. To date, Nexus has failed and refused to comply with RLI’s demand for either (i) the procurement of its discharge from liability and to provide conclusive evidence thereof; or (ii) for the collateral security demanded. 
+
+62. Nexus has further increased RLI’s bond exposure and placed RLI’s surety business and reputation at unnecessary and unreasonable risk through Nexus’ dealings with DHS regarding the outstanding immigration bonds. 
+
+63. For instance, Nexus has failed in a number of instances to timely pay Bond claims, despite contrary representations to RLI, exposing RLI to additional interest and penalties in excess of the Bond’s penal sums. 
+
+64. In many instances, Nexus’ delay in making payments has extended into the period in which DHS advises that it may report the delinquency to the Department of Treasury, thereby undermining RLI’s corresponding relationship. For example, attached hereto as Exhibit J is a true and correct copy of a December 12, 2017 letter and its attachments, redacted in part by DHS, and in part by RLI for privacy reasons, in which DHS noted one such delinquency and threatened to turn the matter over to the Department of Treasury if not promptly remedied. 
+
+65. In attempting to mitigate potential increases in Bond exposure and Bond losses and to preserve its relationship with the federal government, RLI has repeatedly requested that Nexus contemporaneously advise RLI of its dealings with DHS, particularly with respect to any and all Bond claims, including through the contemporaneous provision of copies of checks sent in satisfaction of Bond demands, or other responsive appeals or correspondence, along with tracking information related to the transmission and delivery of such submissions. 
+
+66. With few exceptions, Nexus has failed to comply with such requests by RLI. 
+
+67. After RLI inquiries regarding a number of unsatisfied Bond claims went unanswered, RLI, by email dated March 28, 2018, advised Nexus that if it failed to demonstrate to RLI by 5: 00 p. m. on March 29, 2018, with copies of checks and tracking information, that Nexus had forwarded payment to Big Marco on eight such claims, RLI would submit payment on each of them to DHS. A true and correct copy of this March 28, 2018 email, partially redacted for attorney-client privilege, is attached hereto as Exhibit K. 2 
+
+68. Nexus failed to comply with or respond to the March 28, 2018 email, and therefore, RLI issued payment to DHS on all eight claims, in the total amount of $83, 872. 14, thereby incurring a loss resulting from its having issued Bonds at Nexus’ request. 2 Due to a typographical error and a minor accounting issue, the total sum of the claim amounts stated in this March 28, 2018 email is $8, 995 less than the amount that was actually owed and paid by RLI to DHS on these eight Bond claims. See ¶ 68, supra. 
+
+69. Nexus’ failure to indemnify RLI for such bond losses constitutes a further breach of the Indemnity Agreement. 
+
+70. RLI has also incurred substantial additional costs in investigating Bond claims and in attempting to enforce its rights and Nexus’ obligations under the Indemnity Agreement, for which costs Nexus is liable to RLI. 
+
+71. Nexus’ breaches of the Indemnity Agreement, including but not limited to its most recent failure to pay Bond claims or even to respond to RLI’s related inquiry, its refusal to pay collateral security, and its refusal to comply with RLI’s demand to inspect its books, records and accounts, among other factors, give RLI grave concerns regarding Nexus’ solvency and its capability and intentions going forward to satisfy its indemnity, collateral security and other obligations under the Indemnity Agreement. 
+
+72. Nexus’ breaches of the bargained-for interim rights set forth in the Indemnity Agreement, including but not limited to its continuing refusal to comply with RLI’s demand to inspect its books, records and accounts and either to procure its discharge from loss under all of the Bonds and provide conclusive evidence thereof or to provide requested collateral security, has further harmed and continues to harm RLI by, inter alia, diminishing and impairing RLI’s ability, immediately and prior to or during the pendency of any enforcement suit, to secure Nexus’ available collateral assets, to guard against Nexus’ potential dissipation thereof, to accurately evaluate RLI’s loss exposure, and to preserve its reputation with the federal government. CAUSES OF ACTION The following causes of action are each pleaded in the alternative to the extent they rely upon inconsistent facts, if any. 
+
+COUNT I – INJUNCTIVE RELIEF 
+
+73. RLI incorporates by reference, as if fully restated herein, the allegations contained in paragraphs 1 through 72 of this Complaint. 
+
+74. By and through the Indemnity Agreement, RLI and Nexus executed a valid contract, the purpose of which is to indemnify, secure and protect RLI from all loss and expense in connection with any Bonds issued by RLI at the request of Nexus. 
+
+75. Nexus has breached its express and implied obligations under the Indemnity Agreement by, inter alia, (i) failing and refusing to comply with RLI’s numerous and repeated demands for access to Nexus’ books, records and accounts; (ii) misrepresenting the extent to which it has actually taken steps to minimize RLI’s loss and discharge RLI’s exposure to Bond claims; (iii) exposing RLI to additional Bond liability and undermining RLI’s reputation through its dealings with DHS; (iv) failing and refusing to comply with RLI’s demands to either procure its discharge from loss under all of the Bonds or to provide requested collateral security; and (v) failing and refusing to indemnify and exonerate RLI from loss with respect to a number of Bond claims. 
+
+76. Despite repeated inquiries and requests for assurances regarding Nexus’ financial assets and condition, Nexus has failed to demonstrate that it has the financial wherewithal to procure RLI’s discharge without loss from liability under the outstanding immigration bonds or to otherwise secure RLI from loss resulting from its issuance of bonds at Nexus’ request. 
+
+77. Absent injunctive relief, RLI has and will continue to sustain irreparable harm, which cannot be adequately redressed by any monetary judgment, in that, among other things, RLI has and will continue to forever lose its express, negotiated interim contractual rights and remedies to be secured against loss prior to and during the pendency of any suit to enforce its ultimate rights to full indemnity from Nexus, including both by Nexus’ provision of collateral security and by having access to Nexus’ books, records and accounts. Resulting irreparable harms include, inter alia, the impairment of RLI’s interim rights to secure available collateral assets, to guard against Nexus’ potential dissipation thereof, to accurately evaluate its loss exposure and to preserve its reputation and good will with the federal government. 
+
+78. There is no remedy at law that will adequately compensate RLI for all injuries and harms sustained as a result of Nexus’ breaches of the Indemnity Agreement. 
+
+79. The public’s interest in enforcing contract rights, as written, will be served by the requested injunction, and the benefits to be derived from enforcing RLI’s valuable negotiated interim rights and remedies by injunction vastly outweigh any hardship that Nexus would suffer in complying with the express provisions to which it voluntarily agreed in exchange for RLI’s issuance of the Bonds. 
+
+80. RLI has satisfied any and all conditions precedent required to obtain relief. WHEREFORE, RLI respectfully requests injunctive relief in the form of an order that: (i) orders Nexus, within seven (7) days, to provide RLI with full and unfettered access to its books, records and accounts, including but not limited to all records set forth in its attached written requests, for the purpose of inspecting and copying them; (ii) orders Nexus to immediately discharge RLI from any Bond and all liability incurred by reason of RLI’s issuance of any Bonds at Nexus’ request orders, and if such discharge is unattainable, to immediately provide RLI with collateral security in an amount that RLI hereafter determines to be sufficient to cover all exposure under the Bonds; (iii) orders Nexus to indemnify and exonerate RLI for and from all losses, expenses, attorney’s fees and legal fees, including the fees and costs to litigate this action, and all other costs and losses otherwise incurred by RLI as a result of its issuance of the Bonds; and (iv) orders any further injunctive relief that the Court deems to be just and appropriate. COUNT II – SPECIFIC PERFORMANCE 
+
+81. RLI incorporates by reference, as if fully restated herein, the allegations contained in paragraphs 1 through 80 of this Complaint. 
+
+82. By and through the Indemnity Agreement, RLI and Nexus executed a valid contract, the purpose of which is to indemnify, secure and protect RLI from all loss and expense in connection with any Bonds issued by RLI on behalf of Nexus. 
+
+83. Nexus has breached its express and implied obligations under the Indemnity Agreement by, inter alia, (i) failing and refusing to comply with RLI’s numerous and repeated demands for access to Nexus’ books, records and accounts; (ii) misrepresenting the extent to which it has actually taken steps to minimize RLI’s loss and discharge RLI’s exposure to Bond claims; (iii) exposing RLI to additional Bond liability and undermining RLI’s reputation through its dealings with DHS; (iv) failing and refusing to comply with RLI’s demands to either procure its discharge from loss under all of the Bonds or to provide requested collateral security; and (v) failing and refusing to indemnify and exonerate RLI from loss with respect to a number of Bond claims. 
+
+84. Absent equitable relief, RLI will continue to sustain certain injuries that cannot be adequately redressed by any monetary judgment, in that, among other things, RLI will forever lose its express, negotiated interim contractual rights and remedies to be secured against loss prior to and during the pendency of any suit to enforce its ultimate rights to full indemnity from Nexus, both by Nexus’ provision of collateral security and by having access to Nexus’ records to inform its related strategies, including, inter alia, to secure available assets and to guard against Nexus’ potential dissipation thereof. Absent equitable relief, RLI’s ability to monitor and safeguard its reputation and good will with the federal government will also continue to be compromised. 
+
+85. There is no remedy at law that will adequately compensate RLI for all injuries and harms sustained as a result of Nexus’ breaches of the Indemnity Agreement. 
+
+86. RLI has satisfied any and all conditions precedent required to obtain relief. WHEREFORE, RLI respectfully requests specific performance of the Indemnity Agreement in the form of an order that: (i) orders Nexus, within seven (7) days, to provide RLI with full and unfettered access to its books, records and accounts, including but not limited to all records set forth in its attached written requests, for the purpose of inspecting and copying them; (ii) orders Nexus to immediately discharge RLI from any Bond and all liability incurred by reason of RLI’s issuance of any Bonds at Nexus’ request orders, and if such discharge is unattainable, to immediately provide RLI with collateral security in the amount that RLI hereafter determines to be sufficient to cover all exposure under the Bonds; (iii) orders Nexus to indemnify and exonerate RLI for and from all losses, expenses, attorney’s fees and legal fees, including the fees and costs to litigate this action, and all other costs and losses otherwise incurred by RLI as a result of its issuance of the Bonds; and  (iv) orders any further equitable relief that the Court deems to be just and appropriate. COUNT III – BREACH OF INDEMNITY AGREEMENT 
+
+87. RLI incorporates by reference, as if fully restated herein, the allegations contained in paragraphs 1 through 86 of its Complaint. 
+
+88. By and through the Indemnity Agreement, RLI and Nexus executed a valid contract, the purpose of which is to indemnify, secure and protect RLI from all loss and expense in connection with any Bonds issued by RLI at the request of Nexus. 
+
+89. Nexus has breached its express and implied obligations under the Indemnity Agreement by, inter alia, (i) failing and refusing to comply with RLI’s numerous and repeated demands for access to Nexus’ books, records and accounts; (ii) misrepresenting the extent to which it has actually taken steps to minimize RLI’s loss and discharge RLI’s exposure to Bond claims; (iii) exposing RLI to additional Bond liability and undermining RLI’s reputation through its dealings with DHS; (iv) failing and refusing to comply with RLI’s demands to either procure its discharge from loss under all of the Bonds or to provide requested collateral security; and (v) failing and refusing to indemnify and exonerate RLI from loss with respect to a number of Bond claims. 
+
+90. RLI has been exposed to liability and has sustained losses as a result of its issuance of the Bonds, far in excess of $75, 000, due to Nexus’ default of its obligations under the Indemnity Agreement and the Bonds. 
+
+91. The losses, costs and expenses incurred by RLI, and the losses, costs and expenses that RLI continues to sustain by reason of its issuance of the Bonds, were caused solely by Nexus. 
+
+92. RLI has satisfied any and all conditions precedent required to obtain relief. WHEREFORE, RLI respectfully requests that this Court enter judgment against Nexus and in favor of RLI, in the full amount of RLI’s damages, as proven at trial, including costs, interest and attorney’s fees, and to grant RLI such further relief as this Court deems just and proper. Dated: April 11, 2018 Respectfully submitted, RLI INSURANCE COMPANY By its Counsel: /s Vivian Katsantonis Vivian Katsantonis (VSB # 30448) Christopher M. Harris (VSB #48361) Counsel for RLI Insurance Company Watt, Tieder, Hoffar & Fitzgerald, L. L. P. 1765 Greensboro Station Place, Suite 1000 McLean, Virginia 22102 Tel: 703-749-1000 Fax: 703-893-8029 Email: vkatsantonis@watttieder.com Email: charris@watttieder.com 

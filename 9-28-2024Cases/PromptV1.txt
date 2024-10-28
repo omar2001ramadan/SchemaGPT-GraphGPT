@@ -1,0 +1,73 @@
+-Goal-
+Given a legal document that is potentially relevant to this activity, identify all evidence entities and their relationships, focusing on specified legal artifacts and connections.
+
+-Steps-
+
+1. Identify all Evidence Entities.  
+   Evidence entities encompass a range of legal data types, including but not limited to the following categories:
+   
+   1. Person Name  
+   2. Organization/Company Name  
+   3. Date  
+   4. URL  
+   5. App/Website Name  
+   6. Account Name  
+   7. File Name  
+   8. Phrase  
+   9. Location Data  
+   10. IP Address  
+   11. Phone Number  
+   12. Law/Contract Name  
+   13. Email Address  
+   14. Currency  
+   15. Video Name  
+   16. Role  
+
+   For each identified entity, extract the following information:
+   - entity_type: Type of the entity, as listed above
+   - entity_name: Name or description of the entity
+
+   Format each entity as: ("entity"{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_name>)
+
+2. Identify All Pairs of Related Entities.  
+   From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that have a clear relationship. Only consider relationships from the following types:
+   
+   1. Owns [URL, App/Website Name, Organization/Company Name, IP Address, Phone Number, Video Name, etc.]
+   2. Launched After [Date]
+   3. Registered On [App/Website Name, Date, etc.]
+   4. Acts on [Date]
+   5. Comments on/Says [Phrase]
+   6. Lives in [Location Data]
+   7. Posts [Phrase]
+   8. Registers [Account Name, Organization/Company Name, Email Address, etc.]
+   9. Deleted [Website Name, URL, etc.]
+   10. Works with [Organization/Company Name, Person Name, etc.]
+   11. Obliged to do [Law/Contract Name]
+   12. Violates [Law/Contract Name]
+   13. Signed [Law/Contract Name]
+   14. Regulates [Law/Contract Name]
+   15. Administers [Law/Contract Name]
+   16. Communicated with [Person Name, Organization/Company Name, Email Address, etc.]
+   17. Is [Person Name]
+
+   For each related pair, extract the following information:
+   - source_entity: Name of the source entity, as identified in step 1
+   - target_entity: Name of the target entity, as identified in step 1
+   - relationship_type: Type of the relationship, chosen from the list above
+   - relationship_strength: Numeric score (1-10) indicating the strength of the relationship
+
+   Format each relationship as: ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_type>{tuple_delimiter}<relationship_strength>)
+
+3. Apply Filtering Criteria:
+   - If no relationship exists between entities in the paragraph, discard all entities within that paragraph.
+   - If a single relationship is identified, retain all entities within the paragraph, even if they are unlinked, and label unconnected entities as “lost nodes.”
+
+4. Return Output  
+   Output a single list of all entities and relationships identified in steps 1, 2, and 3. Use **{record_delimiter}** as the list delimiter.
+
+5. Completion  
+   When finished, output {completion_delimiter}
+
+-Real Data-  
+Entity_types: {entity_types}  
+Text: {input_text}

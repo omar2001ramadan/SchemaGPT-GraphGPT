@@ -1,0 +1,171 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Interactive Graph</title>
+      <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-direction: row;
+          font-family: Arial, sans-serif;
+        }
+        #graph-container {
+          flex: 3;
+          height: 100vh;
+        }
+        #stats-container {
+          flex: 1;
+          padding: 20px;
+          overflow-y: auto;
+          background-color: #f5f5f5;
+          border-left: 1px solid #ddd;
+        }
+      </style>
+    </head>
+    <body>
+      <div id="graph-container">
+        <html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 100vh;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#e6194b", "font": {"color": "black"}, "id": "jason goodman \u003cPERSON NAME\u003e", "label": "jason goodman \u003cPERSON NAME\u003e", "shape": "dot", "title": "Original Text: JASON GOODMAN\u003cbr\u003eLabel: PERSON NAME"}, {"color": "#e6194b", "font": {"color": "black"}, "id": "christopher elli bouzy \u003cPERSON NAME\u003e", "label": "christopher elli bouzy \u003cPERSON NAME\u003e", "shape": "dot", "title": "Original Text: CHRISTOPHER ELLIS BOUZY\u003cbr\u003eLabel: PERSON NAME"}, {"color": "#911eb4", "font": {"color": "black"}, "id": "bot sentinel inc \u003cORGANIZATION/COMPANY NAME\u003e", "label": "bot sentinel inc \u003cORGANIZATION/COMPANY NAME\u003e", "shape": "dot", "title": "Original Text: BOT SENTINEL, INC\u003cbr\u003eLabel: ORGANIZATION/COMPANY NAME"}, {"color": "#e6194b", "font": {"color": "black"}, "id": "george webb sweigert \u003cPERSON NAME\u003e", "label": "george webb sweigert \u003cPERSON NAME\u003e", "shape": "dot", "title": "Original Text: GEORGE WEBB SWEIGERT\u003cbr\u003eLabel: PERSON NAME"}, {"color": "#911eb4", "font": {"color": "black"}, "id": "united state district court \u003cORGANIZATION/COMPANY NAME\u003e", "label": "united state district court \u003cORGANIZATION/COMPANY NAME\u003e", "shape": "dot", "title": "Original Text: UNITED STATES DISTRICT COURT\u003cbr\u003eLabel: ORGANIZATION/COMPANY NAME"}, {"color": "#46f0f0", "font": {"color": "black"}, "id": "southern district of new york \u003cLOCATION DATA\u003e", "label": "southern district of new york \u003cLOCATION DATA\u003e", "shape": "dot", "title": "Original Text: SOUTHERN DISTRICT OF NEW YORK\u003cbr\u003eLabel: LOCATION DATA"}, {"color": "#911eb4", "font": {"color": "black"}, "id": "multimedia system design inc \u003cORGANIZATION/COMPANY NAME\u003e", "label": "multimedia system design inc \u003cORGANIZATION/COMPANY NAME\u003e", "shape": "dot", "title": "Original Text: MULTIMEDIA SYSTEM DESIGN, INC\u003cbr\u003eLabel: ORGANIZATION/COMPANY NAME"}, {"color": "#f032e6", "font": {"color": "black"}, "id": "twitter \u003cAPP/WEBSITE NAME\u003e", "label": "twitter \u003cAPP/WEBSITE NAME\u003e", "shape": "dot", "title": "Original Text: TWITTER\u003cbr\u003eLabel: APP/WEBSITE NAME"}, {"color": "#e6194b", "font": {"color": "black"}, "id": "benjamin wittes \u003cPERSON NAME\u003e", "label": "benjamin wittes \u003cPERSON NAME\u003e", "shape": "dot", "title": "Original Text: BENJAMIN WITTES\u003cbr\u003eLabel: PERSON NAME"}, {"color": "#f032e6", "font": {"color": "black"}, "id": "lawfare \u003cAPP/WEBSITE NAME\u003e", "label": "lawfare \u003cAPP/WEBSITE NAME\u003e", "shape": "dot", "title": "Original Text: LAWFARE\u003cbr\u003eLabel: APP/WEBSITE NAME"}, {"color": "#4363d8", "font": {"color": "black"}, "id": "december 17 2021 \u003cDATE\u003e", "label": "december 17 2021 \u003cDATE\u003e", "shape": "dot", "title": "Original Text: DECEMBER 17, 2021\u003cbr\u003eLabel: DATE"}, {"color": "#4363d8", "font": {"color": "black"}, "id": "december 2020 \u003cDATE\u003e", "label": "december 2020 \u003cDATE\u003e", "shape": "dot", "title": "Original Text: DECEMBER 2020\u003cbr\u003eLabel: DATE"}, {"color": "#fabebe", "font": {"color": "black"}, "id": "plaintiff \u003cROLE\u003e", "label": "plaintiff \u003cROLE\u003e", "shape": "dot", "title": "Original Text: PLAINTIFF\u003cbr\u003eLabel: ROLE"}, {"color": "#e6194b", "font": {"color": "black"}, "id": "bouzy \u003cPERSON NAME\u003e", "label": "bouzy \u003cPERSON NAME\u003e", "shape": "dot", "title": "Original Text: BOUZY\u003cbr\u003eLabel: PERSON NAME"}, {"color": "#e6194b", "font": {"color": "black"}, "id": "webb \u003cPERSON NAME\u003e", "label": "webb \u003cPERSON NAME\u003e", "shape": "dot", "title": "Original Text: WEBB\u003cbr\u003eLabel: PERSON NAME"}, {"color": "#e6194b", "font": {"color": "black"}, "id": "wittes \u003cPERSON NAME\u003e", "label": "wittes \u003cPERSON NAME\u003e", "shape": "dot", "title": "Original Text: WITTES\u003cbr\u003eLabel: PERSON NAME"}, {"color": "#e6194b", "font": {"color": "black"}, "id": "halima aden \u003cPERSON NAME\u003e", "label": "halima aden \u003cPERSON NAME\u003e", "shape": "dot", "title": "Original Text: HALIMA ADEN\u003cbr\u003eLabel: PERSON NAME"}, {"color": "#4363d8", "font": {"color": "black"}, "id": "december 20 2020 \u003cDATE\u003e", "label": "december 20 2020 \u003cDATE\u003e", "shape": "dot", "title": "Original Text: DECEMBER 20, 2020\u003cbr\u003eLabel: DATE"}, {"color": "#4363d8", "font": {"color": "black"}, "id": "may 2018 \u003cDATE\u003e", "label": "may 2018 \u003cDATE\u003e", "shape": "dot", "title": "Original Text: MAY 2018\u003cbr\u003eLabel: DATE"}, {"color": "#f032e6", "font": {"color": "black"}, "id": "youtube \u003cAPP/WEBSITE NAME\u003e", "label": "youtube \u003cAPP/WEBSITE NAME\u003e", "shape": "dot", "title": "Original Text: YOUTUBE\u003cbr\u003eLabel: APP/WEBSITE NAME"}, {"color": "#bcf60c", "font": {"color": "black"}, "id": "sweigert v cnn \u003cLAW/CONTRACT NAME\u003e", "label": "sweigert v cnn \u003cLAW/CONTRACT NAME\u003e", "shape": "dot", "title": "Original Text: SWEIGERT V CNN\u003cbr\u003eLabel: LAW/CONTRACT NAME"}, {"color": "#bcf60c", "font": {"color": "black"}, "id": "amicus curia brief \u003cLAW/CONTRACT NAME\u003e", "label": "amicus curia brief \u003cLAW/CONTRACT NAME\u003e", "shape": "dot", "title": "Original Text: AMICUS CURIAE BRIEF\u003cbr\u003eLabel: LAW/CONTRACT NAME"}, {"color": "#e6194b", "font": {"color": "black"}, "id": "christopher bouzy \u003cPERSON NAME\u003e", "label": "christopher bouzy \u003cPERSON NAME\u003e", "shape": "dot", "title": "Original Text: CHRISTOPHER BOUZY\u003cbr\u003eLabel: PERSON NAME"}, {"color": "#f032e6", "font": {"color": "black"}, "id": "botsentinelcom \u003cAPP/WEBSITE NAME\u003e", "label": "botsentinelcom \u003cAPP/WEBSITE NAME\u003e", "shape": "dot", "title": "Original Text: BOTSENTINEL.COM\u003cbr\u003eLabel: APP/WEBSITE NAME"}, {"color": "#4363d8", "font": {"color": "black"}, "id": "121921 \u003cDATE\u003e", "label": "121921 \u003cDATE\u003e", "shape": "dot", "title": "Original Text: 12/19/21\u003cbr\u003eLabel: DATE"}, {"color": "#3cb44b", "font": {"color": "black"}, "id": "truthcrowdsourcethetruthorg \u003cEMAIL ADDRESS\u003e", "label": "truthcrowdsourcethetruthorg \u003cEMAIL ADDRESS\u003e", "shape": "dot", "title": "Original Text: TRUTH@CROWDSOURCETHETRUTH.ORG\u003cbr\u003eLabel: EMAIL ADDRESS"}, {"color": "#46f0f0", "font": {"color": "black"}, "id": "252 7th avenue apt 6 new york ny 10001 \u003cLOCATION DATA\u003e", "label": "252 7th avenue apt 6 new york ny 10001 \u003cLOCATION DATA\u003e", "shape": "dot", "title": "Original Text: 252 7TH AVENUE APT 6S NEW YORK, NY 10001\u003cbr\u003eLabel: LOCATION DATA"}, {"color": "#ffe119", "font": {"color": "black"}, "id": "323 7447594 \u003cPHONE NUMBER\u003e", "label": "323 7447594 \u003cPHONE NUMBER\u003e", "shape": "dot", "title": "Original Text: (323) 744-7594\u003cbr\u003eLabel: PHONE NUMBER"}, {"color": "#bcf60c", "font": {"color": "black"}, "id": "complaint for abuse of process and misconduct by attorney \u003cLAW/CONTRACT NAME\u003e", "label": "complaint for abuse of process and misconduct by attorney \u003cLAW/CONTRACT NAME\u003e", "shape": "dot", "title": "Original Text: COMPLAINT FOR ABUSE OF PROCESS AND MISCONDUCT BY ATTORNEYS\u003cbr\u003eLabel: LAW/CONTRACT NAME"}, {"color": "#f58231", "font": {"color": "black"}, "id": "case 1 21cv10878at \u003cFILE NAME\u003e", "label": "case 1 21cv10878at \u003cFILE NAME\u003e", "shape": "dot", "title": "Original Text: CASE 1: 21-CV-10878-AT\u003cbr\u003eLabel: FILE NAME"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "jason goodman \u003cPERSON NAME\u003e", "label": "Communicated with", "physics": true, "title": "Communicated with", "to": "christopher elli bouzy \u003cPERSON NAME\u003e"}, {"arrows": "to", "from": "jason goodman \u003cPERSON NAME\u003e", "label": "Acts on", "physics": true, "title": "Acts on", "to": "bot sentinel inc \u003cORGANIZATION/COMPANY NAME\u003e"}, {"arrows": "to", "from": "jason goodman \u003cPERSON NAME\u003e", "label": "Communicated with", "physics": true, "title": "Communicated with", "to": "benjamin wittes \u003cPERSON NAME\u003e"}, {"arrows": "to", "from": "jason goodman \u003cPERSON NAME\u003e", "label": "Owns", "physics": true, "title": "Owns", "to": "multimedia system design inc \u003cORGANIZATION/COMPANY NAME\u003e"}, {"arrows": "to", "from": "jason goodman \u003cPERSON NAME\u003e", "label": "Comments on/Says", "physics": true, "title": "Comments on/Says", "to": "lawfare \u003cAPP/WEBSITE NAME\u003e"}, {"arrows": "to", "from": "jason goodman \u003cPERSON NAME\u003e", "label": "Communicated with", "physics": true, "title": "Communicated with", "to": "christopher bouzy \u003cPERSON NAME\u003e"}, {"arrows": "to", "from": "jason goodman \u003cPERSON NAME\u003e", "label": "Posts", "physics": true, "title": "Posts", "to": "twitter \u003cAPP/WEBSITE NAME\u003e"}, {"arrows": "to", "from": "jason goodman \u003cPERSON NAME\u003e", "label": "Signed", "physics": true, "title": "Signed", "to": "complaint for abuse of process and misconduct by attorney \u003cLAW/CONTRACT NAME\u003e"}, {"arrows": "to", "from": "jason goodman \u003cPERSON NAME\u003e", "label": "Registers", "physics": true, "title": "Registers", "to": "case 1 21cv10878at \u003cFILE NAME\u003e"}, {"arrows": "to", "from": "christopher elli bouzy \u003cPERSON NAME\u003e", "label": "Owns", "physics": true, "title": "Owns", "to": "bot sentinel inc \u003cORGANIZATION/COMPANY NAME\u003e"}, {"arrows": "to", "from": "christopher elli bouzy \u003cPERSON NAME\u003e", "label": "Acts on", "physics": true, "title": "Acts on", "to": "twitter \u003cAPP/WEBSITE NAME\u003e"}, {"arrows": "to", "from": "united state district court \u003cORGANIZATION/COMPANY NAME\u003e", "label": "Administers", "physics": true, "title": "Administers", "to": "southern district of new york \u003cLOCATION DATA\u003e"}, {"arrows": "to", "from": "twitter \u003cAPP/WEBSITE NAME\u003e", "label": "Posts", "physics": true, "title": "Posts", "to": "bouzy \u003cPERSON NAME\u003e"}, {"arrows": "to", "from": "twitter \u003cAPP/WEBSITE NAME\u003e", "label": "Posts", "physics": true, "title": "Posts", "to": "christopher bouzy \u003cPERSON NAME\u003e"}, {"arrows": "to", "from": "plaintiff \u003cROLE\u003e", "label": "Harasses", "physics": true, "title": "Harasses", "to": "bouzy \u003cPERSON NAME\u003e"}, {"arrows": "to", "from": "plaintiff \u003cROLE\u003e", "label": "Defames", "physics": true, "title": "Defames", "to": "webb \u003cPERSON NAME\u003e"}, {"arrows": "to", "from": "plaintiff \u003cROLE\u003e", "label": "Submits", "physics": true, "title": "Submits", "to": "sweigert v cnn \u003cLAW/CONTRACT NAME\u003e"}, {"arrows": "to", "from": "bouzy \u003cPERSON NAME\u003e", "label": "Collaborates with", "physics": true, "title": "Collaborates with", "to": "webb \u003cPERSON NAME\u003e"}, {"arrows": "to", "from": "bouzy \u003cPERSON NAME\u003e", "label": "Targets", "physics": true, "title": "Targets", "to": "youtube \u003cAPP/WEBSITE NAME\u003e"}, {"arrows": "to", "from": "webb \u003cPERSON NAME\u003e", "label": "Falsely Accuses", "physics": true, "title": "Falsely Accuses", "to": "halima aden \u003cPERSON NAME\u003e"}, {"arrows": "to", "from": "christopher bouzy \u003cPERSON NAME\u003e", "label": "Owns", "physics": true, "title": "Owns", "to": "botsentinelcom \u003cAPP/WEBSITE NAME\u003e"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"font": {"size": 14, "face": "Tahoma"}, "scaling": {"min": 10, "max": 30, "label": {"enabled": true}}}, "edges": {"font": {"size": 12, "align": "middle"}, "scaling": {"min": 10, "max": 20, "label": {"enabled": true}}}, "physics": {"barnesHut": {"gravitationalConstant": -8000, "centralGravity": 0.3, "springLength": 250, "springConstant": 0.001, "damping": 0.09, "avoidOverlap": 0}, "minVelocity": 0.75}, "interaction": {"hover": true, "navigationButtons": true, "keyboard": true}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
+      </div>
+      <div id="stats-container">
+        
+    <h3>Entity Counts:</h3>
+    <p>PERSON NAME: 9 entities, 9 unique texts<br>ORGANIZATION/COMPANY NAME: 3 entities, 3 unique texts<br>LOCATION DATA: 2 entities, 2 unique texts<br>APP/WEBSITE NAME: 4 entities, 4 unique texts<br>DATE: 5 entities, 5 unique texts<br>ROLE: 1 entities, 1 unique texts<br>LAW/CONTRACT NAME: 3 entities, 3 unique texts<br>EMAIL ADDRESS: 1 entities, 1 unique texts<br>PHONE NUMBER: 1 entities, 1 unique texts<br>FILE NAME: 1 entities, 1 unique texts</p>
+    <h3>Relation Counts:</h3>
+    <p>Communicated with: 3<br>Acts on: 2<br>Owns: 3<br>Comments on/Says: 1<br>Posts: 3<br>Signed: 1<br>Registers: 1<br>Administers: 1<br>Harasses: 1<br>Defames: 1<br>Submits: 1<br>Collaborates with: 1<br>Targets: 1<br>Falsely Accuses: 1</p>
+    <h3>Unconnected Entity Counts:</h3>
+    <p>PERSON NAME: 2 unconnected entities<br>DATE: 5 unconnected entities<br>LAW/CONTRACT NAME: 1 unconnected entities<br>EMAIL ADDRESS: 1 unconnected entities<br>LOCATION DATA: 1 unconnected entities<br>PHONE NUMBER: 1 unconnected entities</p>
+    
+      </div>
+    </body>
+    </html>
+    
